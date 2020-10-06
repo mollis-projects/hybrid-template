@@ -1,5 +1,5 @@
 import 'styled-components';
-import { Sizes } from '.';
+import { Sizes, Statuses } from '.';
 
 interface IPalette {
     main: string;
@@ -10,7 +10,7 @@ interface IPalette {
 declare module 'styled-components' {
     export interface DefaultTheme {
         borderRadius: Sizes;
-        spacing: {tiny: string} & Sizes;
+        spacing: { tiny: string } & Sizes;
         typography: Sizes;
         palette: {
             common: {
@@ -18,9 +18,10 @@ declare module 'styled-components' {
                 gray: string;
                 grayDark: string;
                 white: string;
-            }
-            primary: IPalette
-            secondary: IPalette
-        }
+                statuses: Statuses;
+            };
+            primary: IPalette;
+            secondary: IPalette;
+        };
     }
 }

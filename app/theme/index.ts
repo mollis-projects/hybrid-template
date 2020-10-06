@@ -12,13 +12,13 @@ const customTheme: DefaultTheme = {
         smaller: '12px',
         small: '16px',
         medium: '26px',
-        large: '30px',
+        large: '32px',
     },
     typography: {
         smaller: '.9em',
         small: '1em',
         medium: '1.3em',
-        large: '2em',
+        large: '4em',
     },
     palette: {
         common: {
@@ -26,6 +26,12 @@ const customTheme: DefaultTheme = {
             gray: '#F1F6FF',
             grayDark: '#7A7B92',
             white: '#FBFCFF',
+            statuses: {
+                warning: 'lightgoldenrodyellow',
+                danger: 'indianred',
+                success: 'mediumaquamarine',
+                info: 'violet',
+            },
         },
         primary: {
             main: '#0084ff',
