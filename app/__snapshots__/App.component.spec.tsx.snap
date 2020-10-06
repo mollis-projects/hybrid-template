@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component test suite should render the home  1`] = `
+<DocumentFragment>
+  .c2 {
+  color: #0084ff;
+}
+
+.c2:hover {
+  color: #a7c3dc;
+}
+
+.c1 {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 16px;
+  justify-items: center;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.c0 {
+  font-family: 'Manrope',sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width:576px) {
+  .c1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:922px) {
+  .c0 {
+    padding: 26px;
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    padding: 4px 4px 30px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <header
+      class="c1"
+    >
+      <img
+        alt="Example"
+        src="./assets/logo-realworldone.svg"
+      />
+      <a
+        class="c2 c3"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="c2 c3"
+        href="/test"
+      >
+        Test
+      </a>
+      <a
+        class="c2 c3"
+        href="/performance"
+      >
+        Performance
+      </a>
+    </header>
+    <div>
+      <div />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App component test suite should render the performance page 1`] = `
+<DocumentFragment>
+  .c2 {
+  color: #0084ff;
+}
+
+.c2:hover {
+  color: #a7c3dc;
+}
+
+.c1 {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 16px;
+  justify-items: center;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.c0 {
+  font-family: 'Manrope',sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width:576px) {
+  .c1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:922px) {
+  .c0 {
+    padding: 26px;
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    padding: 4px 4px 30px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <header
+      class="c1"
+    >
+      <img
+        alt="Example"
+        src="./assets/logo-realworldone.svg"
+      />
+      <a
+        class="c2 c3"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="c2 c3"
+        href="/test"
+      >
+        Test
+      </a>
+      <a
+        class="c2 c3"
+        href="/performance"
+      >
+        Performance
+      </a>
+    </header>
+    <div>
+      <div />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App component test suite should render the test page  1`] = `
+<DocumentFragment>
+  .c2 {
+  color: #0084ff;
+}
+
+.c2:hover {
+  color: #a7c3dc;
+}
+
+.c1 {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 16px;
+  justify-items: center;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.c0 {
+  font-family: 'Manrope',sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width:576px) {
+  .c1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:922px) {
+  .c0 {
+    padding: 26px;
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    padding: 4px 4px 30px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <header
+      class="c1"
+    >
+      <img
+        alt="Example"
+        src="./assets/logo-realworldone.svg"
+      />
+      <a
+        class="c2 c3"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="c2 c3"
+        href="/test"
+      >
+        Test
+      </a>
+      <a
+        class="c2 c3"
+        href="/performance"
+      >
+        Performance
+      </a>
+    </header>
+    <div>
+      <div />
+    </div>
+  </div>
+</DocumentFragment>
+`;

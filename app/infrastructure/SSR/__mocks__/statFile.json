@@ -1,0 +1,113 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "d9331d98e1777d265b96",
+  "publicPath": "/public",
+  "outputPath": "/Users/agustin.castiarena/apps/react-component-performance/dist/public",
+  "assetsByChunkName": {
+    "mock": [
+      "mock.js",
+      "mock.js.map"
+    ],
+    "vendors~mock": [
+      "vendors~mock.bundle.js",
+      "vendors~mock.bundle.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "mock.js",
+      "size": 3419,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "mock"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "mock.js.map",
+      "size": 10312,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "mock"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vendors~mock.bundle.js",
+      "size": 170140,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendors~mock"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "vendors~mock.bundle.js.map",
+      "size": 426928,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendors~mock"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "mock": {
+      "chunks": [
+        1,
+        0
+      ],
+      "assets": [
+        "vendors~mock.bundle.js",
+        "vendors~mock.bundle.js.map",
+        "mock.js",
+        "mock.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "mock": {
+      "chunks": [
+        1,
+        0
+      ],
+      "assets": [
+        "vendors~mock.bundle.js",
+        "vendors~mock.bundle.js.map",
+        "mock.js",
+        "mock.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}

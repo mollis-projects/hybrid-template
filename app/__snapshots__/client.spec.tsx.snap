@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Client test suite should mount the app on the document with HRM 1`] = `"<main id=\\"app-wrapper\\"><div class=\\"sc-fujyUd SFmAK\\"><header class=\\"sc-dlnjPT eEmhii\\"><img src=\\"./assets/logo-realworldone.svg\\" alt=\\"Example\\"><a class=\\"sc-gtssRu sc-hKFyIo gerzAu bIHnfw\\" href=\\"/\\">Home</a><a class=\\"sc-gtssRu sc-hKFyIo gerzAu bIHnfw\\" href=\\"/test\\">Test</a><a class=\\"sc-gtssRu sc-hKFyIo gerzAu bIHnfw\\" href=\\"/performance\\">Performance</a></header><div><div class=\\"sc-eCApGN kcmCwM\\"><p class=\\"sc-iCoHVE bZTtds\\">loading...</p></div></div></div></main>"`;

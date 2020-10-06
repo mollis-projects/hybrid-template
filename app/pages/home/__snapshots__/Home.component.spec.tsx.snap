@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component test suite smoke test, snapshot only  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-items: stretch;
+  grid-column-gap: 40px;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  grid-column-gap: 12px;
+}
+
+.c9 {
+  border: none;
+  padding: 16px 30px;
+  border-radius: 10px;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  background-color: #0084ff;
+  color: #fff;
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9:hover {
+  background-color: #a7c3dc;
+}
+
+.c9:hover {
+  cursor: pointer;
+}
+
+.c9:active,
+.c9:focus {
+  outline: none;
+}
+
+.c6 {
+  color: #0084ff;
+}
+
+.c6:hover {
+  color: #a7c3dc;
+}
+
+.c7 {
+  color: #0084ff;
+}
+
+.c7:hover {
+  color: #a7c3dc;
+}
+
+.c1 {
+  font-size: 2em;
+  margin: 26px 0;
+  text-align: center;
+  color: #0A0A33;
+  font-weight: bold;
+}
+
+.c4 {
+  font-size: 1.3em;
+  margin: 26px 0;
+  text-align: left;
+  color: #0A0A33;
+  font-weight: bold;
+}
+
+.c5 {
+  font-size: 1em;
+  margin: 12px 0;
+  line-height: 1.3em;
+  text-align: left;
+  color: #0A0A33;
+  font-weight: normal;
+}
+
+.c3 {
+  padding: 26px 4px;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #FBFCFF;
+}
+
+.c8 {
+  padding: 26px 26px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px -1px rgba(0,0,0,.1);
+  background-color: #FBFCFF;
+}
+
+@media (max-width:576px) {
+  .c2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <h1
+      class="c1"
+    >
+      Frontend Developer Test
+    </h1>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          Test explanation
+        </h2>
+        <p
+          class="c5"
+        >
+          The first requirement was create a SPA with 3 pages, I took the decision to do it as an hybrid application in order to manage the first render of each one of these pages solving on that way the second point also.
+        </p>
+        <p
+          class="c5"
+        >
+          This is the first page, on the header are the 3 links for each page, all handled as SPA and the first render resolved by express application with SSR from react side.
+        </p>
+        <p
+          class="c5"
+        >
+          The second page got the representation of the data selected, this data is came from the following API 
+          <a
+            class="c6"
+            href="https://www.instantwebtools.net/fake-rest-api"
+          >
+            fake-rest-api
+          </a>
+          . I took the decision to use this option because there is an example where the API supports sizing, so on the example I add a infinite scroll playing with that size.
+        </p>
+        <p
+          class="c5"
+        >
+          Finally on the third page you would find the performance of the component who deal with this infinite scroll and the timings of response of the API. All the values are in milliseconds. And for environments reasons in order to see that information you should download the repository and run it locally. More details onç 
+          <a
+            class="c7"
+            href="/performance"
+          >
+            performance page.
+          </a>
+        </p>
+      </div>
+      <div
+        class="c8"
+      >
+        <h2
+          class="c4"
+        >
+          Tasks
+        </h2>
+        <p
+          class="c5"
+        >
+          Can see the full tasks on the PDF file:
+        </p>
+        <p
+          class="c5"
+        >
+          <a
+            class="c9"
+            download=""
+            href="./assets/instructions.pdf"
+          >
+            Download
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

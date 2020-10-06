@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box test suite should a default Box 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 26px 26px;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #FBFCFF;
+}
+
+<div
+    class="c0"
+  >
+    default box
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Box test suite should a shadow Box 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 26px 26px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px -1px rgba(0,0,0,.1);
+  background-color: #FBFCFF;
+}
+
+<div
+    class="c0"
+  >
+    shadow box
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Box test suite should a shadow transparent Box 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 26px 26px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px -1px rgba(0,0,0,.1);
+  background-color: transparent;
+}
+
+<div
+    class="c0"
+  >
+    shadow transparent box
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Box test suite should a shadow transparent Box 2`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 30px 30px;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #FBFCFF;
+}
+
+<div
+    class="c0"
+  >
+    shadow transparent box
+  </div>
+</DocumentFragment>
+`;
