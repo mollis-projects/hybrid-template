@@ -1,4 +1,6 @@
-# React component performance
+# Mollis 
+
+## Hybrid app - template
 
 Isomorphic React application build on Typescript and mounted on NodeJs with
 SSR. For CSS loading styled-components.
